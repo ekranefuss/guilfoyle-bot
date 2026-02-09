@@ -91,6 +91,24 @@ guilfoyle-bot/
 - **SSH key-based auth** - No password authentication
 - **Audit logging** - All deployments logged
 
+## Global Voice
+
+**Matt's Voice** (`templates/shared/MATTS_VOICE.md`) is a shared persona template that defines Matt's communication style, values, and principles for all employee bots.
+
+### Push Updates to All Bots
+
+```bash
+./scripts/push-global-soul.sh
+```
+
+This pushes `MATTS_VOICE.md` to all employee bot repositories, ensuring consistent voice and tone across the fleet.
+
+### Employee Bots Should:
+1. Read `MATTS_VOICE.md` in every session (after `SOUL.md`)
+2. Inherit Matt's communication style and principles
+3. Stay within their specific domain while representing Matt's voice
+4. Pull latest updates when `MATTS_VOICE.md` changes
+
 ## Scripts
 
 ### `deploy-bot.sh`

@@ -7,8 +7,9 @@ If `BOOTSTRAP.md` exists, follow it, then delete it.
 ## Every Session
 
 1. Read `SOUL.md` — who you are
-2. Read `USER.md` — who you're helping  
-3. Read `memory/YYYY-MM-DD.md` (today + yesterday)
+2. Read `MATTS_VOICE.md` — Matt's voice and principles (if you're an employee bot)
+3. Read `USER.md` — who you're helping  
+4. Read `memory/YYYY-MM-DD.md` (today + yesterday)
 
 ## Memory
 
