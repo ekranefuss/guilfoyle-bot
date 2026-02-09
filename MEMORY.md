@@ -71,3 +71,29 @@
 - Security > convenience, always
 - Automate everything that can be automated
 - Keep the fleet registry current
+
+## Global Voice System
+
+### MATTS_VOICE.md
+- **Purpose:** Shared communication guidelines for all employee bots
+- **Location:** `templates/shared/MATTS_VOICE.md`
+- **Distribution:** `./scripts/push-global-soul.sh` pushes to all employee bots
+- **Content:**
+  - Matt's voice and tone
+  - Product knowledge (Foundation, SwissRX, Formulas, etc.)
+  - Access boundaries and security
+  - Writing style guidelines
+
+### Employee Bot Session Flow
+1. Read `SOUL.md` (bot-specific identity)
+2. Read `MATTS_VOICE.md` (shared company voice)
+3. Read `USER.md` (relationships)
+4. Read daily memory
+
+This ensures all employee bots represent Matt's voice consistently while maintaining their specific expertise.
+
+### Deployment Updates (2026-02-08)
+- Created `MATTS_VOICE.md` global template
+- Created `push-global-soul.sh` distribution script
+- Pushed to Elibot repository
+- Updated Elibot's AGENTS.md to include in session checklist
