@@ -1,0 +1,33 @@
+# Environment variables (contains credentials)
+.env
+*.env
+!.env.template
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+
+# Memory files (can be large/personal)
+memory/*.md
+
+# Deployment logs
+deployments/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+.cache/
